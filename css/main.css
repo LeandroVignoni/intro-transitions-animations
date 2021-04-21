@@ -94,9 +94,36 @@ ul.transition li {
     background: white;
     position: absolute;
     z-index: 21 !important;
-    width: 80%;
+    text-align: center;
     -webkit-animation-fill-mode: initial;
             animation-fill-mode: initial;
+  }
+}
+
+@media (min-width: 950px) {
+  .cta {
+    padding: 1em;
+    background: white;
+    position: absolute;
+    z-index: 21 !important;
+    text-align: center;
+    -webkit-animation-fill-mode: initial;
+            animation-fill-mode: initial;
+  }
+  .left {
+    padding-right: 10em;
+  }
+  main {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-top: 3em;
+    position: relative;
+    z-index: 3;
+  }
+  .wrapper {
+    max-width: 1550px;
+    margin: 0;
   }
 }
 /*# sourceMappingURL=main.css.map */

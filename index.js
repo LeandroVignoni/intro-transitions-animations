@@ -1,4 +1,4 @@
-function pageTransition() {
+function transition() {
   var tl = gsap.timeline();
   tl.to("ul.transition li", { duration: 0.5, scaleY: 1, transformOrigin: "bottom left", stagger: 0.2 });
   tl.to("ul.transition li", { duration: 0.5, scaleY: 0, transformOrigin: "bottom left", stagger: 0.1, delay: 0.1 });
@@ -25,7 +25,7 @@ barba.init({
     {
       async leave(data) {
         const done = this.async();
-        pageTransition();
+        transition();
         await delay(1500);
         done();
       },
