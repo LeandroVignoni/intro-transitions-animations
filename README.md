@@ -1,0 +1,1 @@
+Simple website made with barba.js for creating smooth transitions between the pages and gsap for animations. 
