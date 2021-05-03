@@ -1,1 +1,1 @@
-Simple website built for the purpose of introducing me in animations and transitions. Made with barba.js for transitions between pages, GreenSock for animations and Sass for styling.
+Simple website built with the purpose of putting in practice the knowledge adquired in animations and transitions. Made with barba.js for transitions between pages, GreenSock for animations and Sass for styling.
