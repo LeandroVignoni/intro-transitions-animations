@@ -94,7 +94,7 @@ main {
   margin-bottom: 5em;
 }
 
-@media (min-width: 800px) {
+@media (min-width: 1000px) {
   main {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -108,16 +108,18 @@ main {
     z-index: 3;
   }
   .wrapper {
-    max-width: 800px;
+    max-width: 1400px;
     margin: 0;
   }
   .left {
-    padding-right: 2em;
+    padding-right: 1em;
+    width: 500px;
     display: block;
   }
   img {
-    width: 600px;
-    padding: 1em;
+    width: 800px;
+    -o-object-fit: contain;
+       object-fit: contain;
   }
   .img2 {
     display: none;
@@ -136,7 +138,7 @@ main {
   }
 }
 
-@media (min-width: 1100px) {
+@media (min-width: 1400px) {
   .cta {
     padding: 1em;
     background: white;
@@ -146,49 +148,66 @@ main {
             animation-fill-mode: initial;
   }
   .wrapper {
-    max-width: 1500px;
+    max-width: 1650px;
     margin: 0;
   }
   img {
-    width: 400px;
-    padding: 5px;
+    width: auto;
+    max-width: 500px;
+    -o-object-fit: contain;
+       object-fit: contain;
   }
   .img2 {
     display: block;
+    width: auto;
+    max-width: 500px;
+    -o-object-fit: contain;
+       object-fit: contain;
+    padding: 5px;
   }
   .img3 {
     display: none;
   }
 }
 
-@media (min-width: 1500px) {
+@media (min-width: 1650px) {
   .wrapper {
     max-width: 1850px;
     margin: 0;
   }
   img {
-    width: 400px;
+    width: 500px;
+    height: auto;
     padding: 5px;
   }
   .img2 {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
+    display: block;
+    width: auto;
+    height: auto;
+    max-width: 500px;
+    -o-object-fit: contain;
+       object-fit: contain;
+    padding: 5px;
   }
-  .img3 {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
+  .img2 {
+    display: block;
+    width: auto;
+    height: auto;
+    max-width: 500px;
+    -o-object-fit: contain;
+       object-fit: contain;
+    padding: 5px;
   }
 }
 
-@media (min-width: 1850px) {
+@media (min-width: 1900px) {
   .wrapper {
     max-width: 2200px;
     margin: 0;
   }
   img {
     width: 500px;
+    height: auto;
     padding: 5px;
   }
   .img2 {
