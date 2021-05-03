@@ -34,13 +34,22 @@ li a {
 
 h1 {
   font-size: 3em;
-  margin-top: 1.5em;
+  margin-top: 0;
+}
+
+text {
+  font-size: 1.5em;
 }
 
 .cta {
-  display: block;
-  padding: 2em 2em 2em 0;
-  font-size: 1.4em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+  padding: 0.5em;
+  font-size: 1.2em;
+  background: white;
+  margin-top: 2em;
 }
 
 img {
@@ -81,6 +90,10 @@ main {
           flex-direction: column;
 }
 
+.left {
+  margin-bottom: 5em;
+}
+
 @media (min-width: 800px) {
   main {
     display: -webkit-box;
@@ -91,12 +104,16 @@ main {
         -ms-flex-direction: row;
             flex-direction: row;
     margin-top: 3em;
-    position: relative;
+    position: block;
     z-index: 3;
   }
   .wrapper {
-    max-width: 650px;
+    max-width: 800px;
     margin: 0;
+  }
+  .left {
+    padding-right: 2em;
+    display: block;
   }
   img {
     width: 600px;
@@ -110,6 +127,7 @@ main {
   }
   .cta {
     padding: 1em;
+    margin: 2em 5em 5em 0;
     background: white;
     position: block;
     text-align: center;
@@ -127,16 +145,12 @@ main {
     -webkit-animation-fill-mode: initial;
             animation-fill-mode: initial;
   }
-  .left {
-    padding-right: 10em;
-  }
   .wrapper {
-    max-width: 2400px;
+    max-width: 1500px;
     margin: 0;
   }
   img {
     width: 400px;
-    height: auto;
     padding: 5px;
   }
   .img2 {
@@ -148,23 +162,33 @@ main {
 }
 
 @media (min-width: 1500px) {
+  .wrapper {
+    max-width: 1850px;
+    margin: 0;
+  }
   img {
     width: 400px;
-    height: auto;
     padding: 5px;
   }
   .img2 {
-    display: block;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
   }
   .img3 {
-    display: block;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
   }
 }
 
 @media (min-width: 1850px) {
+  .wrapper {
+    max-width: 2200px;
+    margin: 0;
+  }
   img {
     width: 500px;
-    height: auto;
     padding: 5px;
   }
   .img2 {
