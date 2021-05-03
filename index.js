@@ -8,7 +8,9 @@ function transition() {
 function animation() {
   var tl = gsap.timeline();
   tl.from(".left", { duration: 1, translateY: 50, opacity: 0 });
-  tl.to("img", { clipPath: "polygon(0 0, 100% 0, 100% 100%, 0% 100%)", duration: 1 }, "-=0.8");
+  tl.to(".img1", { clipPath: "polygon(0 0, 100% 0, 100% 100%, 0% 100%)", duration: 1 }, "-=0.8");
+  tl.to(".img2", { clipPath: "polygon(0 0, 100% 0, 100% 100%, 0% 100%)", duration: 1, delay: 0.1 }, "-=0.8");
+  tl.to(".img3", { clipPath: "polygon(0 0, 100% 0, 100% 100%, 0% 100%)", duration: 1, delay: 0.1 }, "-=0.8");
 }
 
 function delay(n) {

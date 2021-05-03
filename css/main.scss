@@ -65,9 +65,15 @@ ul.transition li {
   width: 20%;
 }
 
+main {
+  display: flex;
+  flex-direction: column;
+}
+
 @media (min-width: 800px) {
   main {
     display: flex;
+    flex-direction: row;
     margin-top: 3em;
     position: relative;
     z-index: 3;
@@ -78,9 +84,10 @@ ul.transition li {
     margin: 0;
   }
 
-  .left {
-    padding-right: 2em;
-  }
+  // .left {
+  //   padding-right: 2em;
+  //   display: block;
+  // }
 
   img {
     width: 600px;
@@ -98,31 +105,24 @@ ul.transition li {
   .cta {
     padding: 1em;
     background: white;
-    position: absolute;
-    z-index: 21 !important;
+    position: block;
+    // z-index: 21 !important;
     text-align: center;
     animation-fill-mode: initial;
   }
 }
 
-@media (min-width: 1000px) {
+@media (min-width: 1100px) {
   .cta {
     padding: 1em;
     background: white;
     position: absolute;
-    z-index: 21 !important;
+    // z-index: 21 !important;
     text-align: center;
     animation-fill-mode: initial;
   }
   .left {
     padding-right: 10em;
-  }
-
-  main {
-    display: flex;
-    margin-top: 3em;
-    position: relative;
-    z-index: 3;
   }
 
   .wrapper {
