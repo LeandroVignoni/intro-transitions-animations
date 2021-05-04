@@ -21,7 +21,9 @@ Simple website built with the purpose of putting in practice the knowledge adqui
 ## Feedback
 
 If you have any feedback, please contact me
+
 email: leandrovignoni@gmail.com
+
 LinkedIn: Leandro Vignoni
 
   
