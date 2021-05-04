@@ -6,7 +6,7 @@ Simple website built with the purpose of putting in practice the knowledge adqui
 
 ## Documentation
 
-[Barb.js](https://barba.js.org/) | 
+[Barba.js](https://barba.js.org/) | 
 [GSAP](https://greensock.com/gsap/)
 
 
