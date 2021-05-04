@@ -44,10 +44,10 @@ text {
   position: absolute;
   padding: 0.5em;
   font-size: 1.2em;
-  background: white;
+  background: rgb(65, 65, 65);
   margin-top: 2em;
+  color: white;
 }
-
 
 img {
   width: 90%;
@@ -69,7 +69,7 @@ ul.transition {
 
 ul.transition li {
   transform: scaleY(0);
-  background: white;
+  background: lightgray;
   width: 20%;
 }
 
@@ -123,24 +123,25 @@ main {
   .cta {
     padding: 1em;
     margin: 2em 5em 5em 0;
-    background: white;
+    background: rgb(65, 65, 65);
+    color: white;
     position: block;
     // z-index: 21 !important;
     text-align: center;
     animation-fill-mode: initial;
     // padding: 2em 2em 2em 0;
-
   }
 }
 
 @media (min-width: 1400px) {
   .cta {
     padding: 1em;
-    background: white;
+    background: rgb(65, 65, 65);
     position: absolute;
     // z-index: 21 !important;
     text-align: center;
     animation-fill-mode: initial;
+    color: white;
   }
   // .left {
   //   padding-right: 10em;
@@ -166,7 +167,6 @@ main {
     max-width: 500px;
     object-fit: contain;
     padding: 5px;
-
   }
 
   .img3 {
@@ -191,7 +191,6 @@ main {
     max-width: 450px;
     object-fit: contain;
     padding: 5px;
-
   }
 
   .img3 {
@@ -201,7 +200,6 @@ main {
     max-width: 450px;
     object-fit: contain;
     padding: 5px;
-
   }
 }
 
