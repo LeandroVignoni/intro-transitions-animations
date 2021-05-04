@@ -6,7 +6,7 @@ Simple website built with the purpose of putting in practice the knowledge adqui
 
 ## Documentation
 
-[Barb.js](https://barba.js.org/) | 
+[Barba.js](https://barba.js.org/) | 
 [GSAP](https://greensock.com/gsap/)
 
 
@@ -20,7 +20,9 @@ Simple website built with the purpose of putting in practice the knowledge adqui
   
 ## Feedback
 
-If you have any feedback, please reach out to me at leandrovignoni@gmail.com
+If you have any feedback, please contact me:
+email: leandrovignoni@gmail.com, 
+ LinkedIn: Leandro Vignoni
 
   
 ## Run Locally
